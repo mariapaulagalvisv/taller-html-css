@@ -1,34 +1,40 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Menú Principal</title>
-<style type="text/css">
-
-input{background-color: inherit;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
 </head>
-
 <body>
-<fieldset><legend>Crear</legend>
-<ul>
-<li><input type="button" value="Crear Clientes" onClick="window.location.href='crearclientes.php' "></li>
-<li><input type="button" value="Crear Ciudades" onClick="window.location.href='crearciudades.php' "></li>
-<li><input type="button" value="Crear Créditos" onClick="window.location.href='crearcreditos.php' "></li>
-<li><input type="button" value="Crear Cuotas" onClick="window.location.href='crearcuotas.php' "></li>
-<li><input type="button" value="Crear Pagos" onClick="window.location.href='crearpagos.php' "></li>
-</ul>
-</fieldset>
+    <header>
+        <fieldset>
+            <a title="Home" href="index.html"><img src="css/images/home.jpg" alt="home"></a>
+            <a title="Menu" href="menu.html"><img src="css/images/menu.jpg" alt="menu"></a>
+            <a title="Client" href="client.html"><img src="css/images/client.jpg" alt="contact"></a>
+        </fieldset>
+    </header>
 
-<fieldset><legend>Listar</legend>
-<ul>
-<li><input type="button" value="Listar Clientes" onClick="window.location.href='listarclientes.php' "></li>
-<li><input type="button" value="Listar Ciudades" onClick="window.location.href='listarciudades.php' "></li>
-<li><input type="button" value="Listar CrÃ©ditos" onClick="window.location.href='listarcreditos.php' "></li>
-<li><input type="button" value="Listar Cuotas" onClick="window.location.href='listarcuotas.php' "></li>
-<li><input type="button" value="Listar Pagos" onClick="window.location.href='listarpagos.php' "></li>
-</ul>
-</fieldset>
+    <fieldset><legend>Crear</legend>
+        <ul>
+            <li><input type="button" value="Crear Clientes" onClick="window.location.href='client.html' "></li>
+            <li><input type="button" value="Crear Ciudades" onClick="window.location.href='' "></li>
+            <li><input type="button" value="Crear Créditos" onClick="window.location.href='' "></li>
+            <li><input type="button" value="Crear Cuotas" onClick="window.location.href='' "></li>
+            <li><input type="button" value="Crear Pagos" onClick="window.location.href='' "></li>
+        </ul>
+    </fieldset>
+        <fieldset><legend>Listar</legend>
+            <ul>
+                <li><input type="button" value="Listar Clientes" onClick="window.location.href='' "></li>
+                <li><input type="button" value="Listar Ciudades" onClick="window.location.href='' "></li>
+                <li><input type="button" value="Listar Créditos" onClick="window.location.href='' "></li>
+                <li><input type="button" value="Listar Cuotas" onClick="window.location.href='' "></li>
+                <li><input type="button" value="Listar Pagos" onClick="window.location.href='' "></li>
+            </ul>
+        </fieldset>
+
+        <ol><input type="button" value="Home" onClick="window.location.href='index.html' "></ol>
 </body>
 </html>

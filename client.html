@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/client.css" type="text/css">
+    <title>Clients</title>
+</head>
+<body>
+    <header>
+        <fieldset>
+            <a title="Home" href="index.html"><img src="css/images/home.jpg" alt="home"></a>
+            <a title="Menu" href="menu.html"><img src="css/images/menu.jpg" alt="menu"></a>
+            <a title="Client" href="client.html"><img src="css/images/client.jpg" alt="contact"></a>
+        </fieldset>
+    </header>
+
+    <fieldset><legend>Crear Clientes</legend>
+            <label for="cedula" >Cédula:</label>
+            <input type="text" name="cedula" id="cedula" maxlength="10" required>
+            <br>
+            <label for="primernombre">Primer Nombre:</label>
+            <input type="text" name="primernombre" id="primernombre" maxlength="45" required>
+            <br>
+            <label for="segundonombre">Segundo Nombre:</label>
+            <input type="text" name="segundonombre" id="segundonombre" maxlength="45" required>
+            <br>
+            <label for="primerapellido">Primer Apellido:</label>
+            <input type="text" name="primerapellido" id="primerapellido" maxlength="45" required>
+            <br>
+            <label for="segundoapellido">Segundo Apellido:</label>
+            <input type="text" name="segundoapellido" id="segundoapellido" maxlength="45" required>
+            <br>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="number" name="telefono" id="telefono" maxlength="50">
+            <br>
+            <label for="celular">Celular:</label>
+            <input type="number" name="celular" id="celular" maxlength="45">
+            <br>
+            <label for="select">Sexo:</label>
+            <select type="text" name="genero" id="genero" maxlength="45">
+            <option>Masculino</option>
+            <option>Femenino</option>
+            </select>
+        <br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" id="direccion" maxlength="45">
+            <br>
+            <label for="barrio">Barrio:</label>
+            <input type="text" name="barrio" id="barrio" maxlength="45">
+            <br>
+            <label for="barrio">Código:</label>
+            <input type="text" name="codigo" id="codigo" maxlength="45" required>
+            <br><br>
+            
+            <label for="button"></label>
+              <input type="submit" name="button" id="button" value="Enviar">
+          </form>
+          <ul>
+          <ol><input type="button" value="Volver Menú" onClick="window.location.href='menu.html' "></ol>
+          <ol><input type="button" value="Listar Clientes" onClick="window.location.href='' "></ol>
+          </ul>
+          </fieldset>
+</body>
+</html>

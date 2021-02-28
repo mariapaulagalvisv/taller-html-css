@@ -1,0 +1,17 @@
+body{
+    background:url(images/body.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: chocolate;
+    font-family: "Comic Sans MS", cursive;
+    font-size: large;
+    color: black;
+}
+img{
+    width: 50px; height: 50px;
+}
+h1{
+    text-align: center;
+}
